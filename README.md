@@ -1,4 +1,5 @@
 # DevSync — Offline-First Collaborative CRDT Task Engine (React)
+-----------------------------------------------------------------
 
 DevSync is an offline-first collaborative task management studio and Conflict-Free Replicated Data Type (CRDT) engine built with React. It models the distributed state algorithms powering platforms like Linear, Figma Tasks, and Notion: LWW-Element-Set (Last-Write-Wins) CRDTs, Lamport timestamps, network partition simulations, and tombstone-based garbage collection.
 
