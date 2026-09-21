@@ -15,4 +15,4 @@ DevSync is an offline-first collaborative task management studio and Conflict-Fr
 
 ##  
 
-2. Launch dev server: `npm run dev`
+ Launch dev server: `npm run dev`
