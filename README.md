@@ -8,6 +8,6 @@ DevSync is an offline-first collaborative task management studio and Conflict-Fr
 * 🔌 **Network Partition Simulator:** Demonstrates offline mutations and bi-directional CRDT convergence upon reconnection.
 * 💀 **Tombstone State Deletions:** Preserves deleted records as tombstones with updated clocks to prevent resurrected state anomalies across distributed clients.
 
-## ⚙️ Running Instructions
+##  Running Instructions
 1. Install dependencies: `npm install`
 2. Launch dev server: `npm run dev`
