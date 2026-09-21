@@ -9,5 +9,4 @@ DevSync is an offline-first collaborative task management studio and Conflict-Fr
 *  **Tombstone State Deletions:** Preserves deleted records as tombstones with updated clocks to prevent resurrected state anomalies across distributed clients.
 
 ##  Running Instructions
-
 2. Launch dev server: `npm run dev`
