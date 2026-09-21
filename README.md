@@ -5,7 +5,7 @@ DevSync is an offline-first collaborative task management studio and Conflict-Fr
 
 ## Preview
 ---------------------------------------------------------------------
-![]
+![](
 
 ##  Technical Architecture Overview
 *  **LWW-Element-Set CRDT:** Implements a deterministic conflict-resolution algorithm where concurrent mutations resolve mathematically without user-facing merge conflicts.
