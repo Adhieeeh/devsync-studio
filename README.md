@@ -1,16 +1,13 @@
-# React + Vite
+# ⚡ DevSync — Offline-First Collaborative CRDT Task Engine (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DevSync is an offline-first collaborative task management studio and Conflict-Free Replicated Data Type (CRDT) engine built with React. It models the distributed state algorithms powering platforms like Linear, Figma Tasks, and Notion: LWW-Element-Set (Last-Write-Wins) CRDTs, Lamport timestamps, network partition simulations, and tombstone-based garbage collection.
 
-Currently, two official plugins are available:
+## ⚡ Technical Architecture Overview
+* 🧮 **LWW-Element-Set CRDT:** Implements a deterministic conflict-resolution algorithm where concurrent mutations resolve mathematically without user-facing merge conflicts.
+* ⏱️ **Lamport Timestamps & Causality:** Tracks causal operation ordering across partitioned peer nodes using monotonically increasing logical clocks.
+* 🔌 **Network Partition Simulator:** Demonstrates offline mutations and bi-directional CRDT convergence upon reconnection.
+* 💀 **Tombstone State Deletions:** Preserves deleted records as tombstones with updated clocks to prevent resurrected state anomalies across distributed clients.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Running Instructions
+1. Install dependencies: `npm install`
+2. Launch dev server: `npm run dev`
